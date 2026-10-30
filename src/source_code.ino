@@ -65,7 +65,7 @@ void setup() {
   gripperServo.write(gripperOpen);
   baseServo.write(90);
 
-  // Start conveyors
+  // Start left conveyors
   startLeftConveyor();
   delay(2000);
 }
